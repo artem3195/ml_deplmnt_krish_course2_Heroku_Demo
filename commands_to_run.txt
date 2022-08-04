@@ -1,0 +1,11 @@
+cd project_folder_path/
+git init
+git status 
+git add .
+git commit -m "Commit"
+heroku create  
+git remote -v
+git branch -a # branch list
+git push heroku master (git push --set-upstream heroku master)
+heroku ps:scale web=1       
+heroku open              
